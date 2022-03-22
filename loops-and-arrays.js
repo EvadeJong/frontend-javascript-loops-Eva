@@ -4,6 +4,8 @@
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 namen zou bevatten!
 // ==========================================
 
+// Vergeten een branch aan te maken :P
+
 const names = ["Henk", "Piet", "Fred", "Joop"];
 
 // Verwachtte uitkomsten:
