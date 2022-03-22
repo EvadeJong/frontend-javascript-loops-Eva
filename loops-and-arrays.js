@@ -28,7 +28,9 @@ const numbers = [2, 4, 5, 29, 38];
 console.log(numbers);
 
 for(let i = 0; i<numbers.length; i++) {
-    if (numbers[i] %2 === 0){
+    let evenNumber = numbers[i] %2 === 0;
+
+    if (evenNumber){
         console.log(numbers[i]*2);
     }else{
         console.log(numbers[i]*3);
@@ -52,10 +54,14 @@ for(let i = 0; i<numbers.length; i++) {
 // ==========================================
 
 const squares = [30, 2, 8, 24, 11];
-console.log(squares);
+console.log (squares);
 
-for(let i =0; i < squares.length; i++ ){
-    console.log("Het volume van " + squares[i] + " is " + (squares[i] * squares[i] * squares[i]))
+for (let i =0; i < squares.length; i++ ){
+
+    let lengteMaat = squares[i];
+    let volume = (squares[i] * squares[i] * squares[i]);
+
+    console.log("Het volume van " + lengteMaat + " is " + volume)
 }
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
